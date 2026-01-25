@@ -1,0 +1,7 @@
+[2026-01-07 22:58:55,748] Single-chain mode set, will predict PDBs as single chains
+[2026-01-07 22:58:55,748] Single PDB file input (ref001), extracting single chains to /tmp/tmpzqbfumss
+[2026-01-07 22:58:55,768] Found 1 extracted single chains in /tmp/tmpzqbfumss
+[2026-01-07 22:58:55,768] Pre-processing PDBs using ESM-IF1
+[2026-01-07 22:59:01,885] Predicting PDBs with DiscoTope-3.0
+[2026-01-07 22:59:01,940] Saving predictions for ref001_A.pdb to /home/ktkim/AllerScope/data/epitope/discotope/ref001/ref001_A_discotope3.csv
+[2026-01-07 22:59:01,968] Predicted 1 / 1 PDB files extracted from 1 input PDBs, saved to /home/ktkim/AllerScope/data/epitope/discotope/ref001
