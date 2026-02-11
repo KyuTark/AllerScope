@@ -9,9 +9,9 @@ from concurrent.futures import ProcessPoolExecutor
 
 import numpy as np
 
-PDB_DIR = Path("/home/ktkim/AllerScope_raw/data/processed/epitope/pdb")
-TMALIGN_BIN = Path("/home/ktkim/miniconda3/envs/aller/bin/TMalign")
-OUT_DIR = Path("/home/ktkim/AllerScope_raw/data/processed/manifold")
+PDB_DIR = Path("/AllerScope/data/processed/epitope/pdb")
+TMALIGN_BIN = Path("/AllerScope/bin/TMalign")
+OUT_DIR = Path("/AllerScope/data/processed/manifold")
 MAX_WORKERS = 8
 
 TM_RE = re.compile(r"TM-score\s*=\s*([0-9.]+)")

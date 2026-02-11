@@ -5,8 +5,8 @@ import re
 import glob
 import shutil
 
-WORKDIR = os.path.expanduser("~/AllerScope/src/workdir")
-DATADIR = os.path.expanduser("~/AllerScope/data")
+WORKDIR = os.path.expanduser("/AllerScope/src/workdir")
+DATADIR = os.path.expanduser("/AllerScope/data")
 IN_DIR = f"{WORKDIR}/_inputs"
 RAW_DIR = f"{WORKDIR}/structures_raw"
 OUT_DIR = f"{DATADIR}/fungal_allergen/pdb"

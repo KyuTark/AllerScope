@@ -4,7 +4,7 @@ import os
 import glob
 import pandas as pd
 
-DATADIR = os.path.expanduser("~/AllerScope/data")
+DATADIR = os.path.expanduser("/AllerScope/data")
 PDB_DIR = f"{DATADIR}/fungal_allergen/pdb"
 BEP_DIR = f"{DATADIR}/epitope/bepipred"
 DIS_DIR = f"{DATADIR}/epitope/discotope"

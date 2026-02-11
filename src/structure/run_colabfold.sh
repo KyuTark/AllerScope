@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-WORKDIR="${HOME}/AllerScope/src/workdir"
-CACHE="${HOME}/AllerScope/colabfold_cache"
+WORKDIR="/AllerScope/src/workdir"
+CACHE="/AllerScope/colabfold_cache"
 IMAGE="ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2"
 
-DATA_DIR="${HOME}/AllerScope/data/FungalAllergen/fasta"
+DATA_DIR="/AllerScope/data/FungalAllergen/fasta"
 OUT_ROOT="${WORKDIR}/structures_raw"
 MSA_ARGS=""  # e.g., "--msa-mode single_sequence"
 
