@@ -1,6 +1,6 @@
 # AllerScope
 
-**A structural atlas of allergens with epitope-level resolution.**
+**A structural landscape of allergens with epitope-level resolution.**
 
 AllerScope is a computational platform for analyzing allergen structures and their epitope landscapes. By integrating protein structure prediction, epitope mapping, and manifold-based comparison, AllerScope enables systematic exploration of structural relationships across allergens — within and across kingdoms.
 
