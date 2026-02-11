@@ -4,9 +4,10 @@
 
 AllerScope is a computational platform for analyzing allergen structures and their epitope landscapes. By integrating protein structure prediction, epitope mapping, and manifold-based comparison, AllerScope enables systematic exploration of structural relationships across allergens — within and across kingdoms.
 
-> 📄 **Preprint** KT Kim. _A Structural Landscape of Fungal Allergens with Epitope-Level Resolution Reveals Cross-Kingdom Structural Similarity._ bioRxiv (2026). [doi:10.64898/2026.01.24.701546](https://doi.org/10.64898/2026.01.24.701546)
+> **Preprint** KT Kim. _A Structural Landscape of Fungal Allergens with Epitope-Level Resolution Reveals Cross-Kingdom Structural Similarity._ bioRxiv (2026). [doi:10.64898/2026.01.24.701546](https://doi.org/10.64898/2026.01.24.701546)
 
 ---
+
 ## Overview
 
 <img width="6807" height="3730" alt="GH1" src="https://github.com/user-attachments/assets/9a7f94fa-ca20-4d11-9cd7-967ca7ed7b53" />
@@ -20,6 +21,7 @@ AllerScope provides an end-to-end pipeline for:
 The current release focuses on **fungal allergens**, but the framework is designed to be organism-agnostic and will be extended to cover all major allergen sources.
 
 ---
+
 ## Repository Structure
 
 ```
@@ -51,6 +53,7 @@ AllerScope/
 ```
 
 ---
+
 ## Getting Started
 
 ### Prerequisites
@@ -87,6 +90,7 @@ python src/manifold/construct_epitope_manifold.py
 ```
 
 ---
+
 ## Citation
 
 If you use AllerScope in your research, please cite:
